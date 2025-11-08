@@ -42,19 +42,34 @@ export default function Home() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-header">
-                <h3 className="project-title">E-Commerce Platform</h3>
-                <span className="project-year">2024</span>
+                <h3 className="project-title">Elegant Jewelry E-Commerce Platform</h3>
+                <span className="project-year">2025</span>
               </div>
               <p className="project-description">
                 A full-stack e-commerce solution built with React, Node.js, and MongoDB. 
-                Features include user authentication, payment processing, inventory management, 
+                Currently in progress, but planned features include user authentication, payment processing, inventory management, 
                 and a responsive admin dashboard.
               </p>
               <div className="project-links">
                 <a href="#" className="project-link">Live Demo</a>
-                <a href="#" className="project-link secondary">GitHub</a>
+                <a href="https://github.com/LardTheTard/shop" className="project-link secondary">GitHub</a>
               </div>
             </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3 className="project-title">Discord Poker Bot and Screentime Tracker</h3>
+                <span className="project-year">2025</span>
+              </div>
+              <p className="project-description">
+                Created a Discord bot using Python and the Discord.py library. It has poker functionality and a screentime tracker that tracks how long users in the same server are online, allowing the display of data through Matplotlib.
+              </p>
+              <div className="project-links">
+                <a href="#" className="project-link">Live Demo</a>
+                <a href="https://github.com/LardTheTard/discord_bot" className="project-link secondary">GitHub</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
